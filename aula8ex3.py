@@ -8,3 +8,19 @@
 # positivamente a 2 questões ela deve ser classificada como "Suspeita", entre 3 e 4 como "Cúmplice" e 5 como "Assassino".
 #  Caso contrário, ele será classificado como "Inocente".
 
+lista_perguntas = ['Telefonou para a vítima? ','Esteve no local do crime? ','Mora perto da vítima? ','Devia para a vítima? ','Já trabalhou com a vítima? ']
+
+contador = 0
+for pergunta in lista_perguntas:
+    a = input(pergunta).lower()
+    if a == "sim":
+        contador += 1
+
+if contador < 2:
+    print("Inocente")
+elif contador == 2:
+    print("Suspeito")
+elif contador <= 4:
+    print("Cúmplice")
+else:
+    print("Assassino")
