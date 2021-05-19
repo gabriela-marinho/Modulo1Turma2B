@@ -1,0 +1,1 @@
+print ("hello nova gabi!vc é linda, sabe o que quer e certamente é muito inteligente para conseguir isso")
