@@ -1,0 +1,2 @@
+#04 - Utilizando funções e listas faça um programa que receba uma data no formato DD/MM/AAAA e devolva uma string no 
+# formato D de mesPorExtenso de AAAA. Valide a data e retorne NULL caso a data seja inválida.
