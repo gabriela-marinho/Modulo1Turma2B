@@ -15,7 +15,6 @@
 num1 = int(input("digite o primeiro numero\n"))
 num2 = int(input("digite o segundo numero\n"))
 
-#op = str(input("digite a operação ('+' ou '*' ou '/'):\n"))
 
 if num1 >= 0:
     resulsoma = num1 + num2
